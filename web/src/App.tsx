@@ -113,7 +113,7 @@ export default function App() {
                 tab === t ? `bg-panel2 shadow-sm ${t === 'TRADER' ? 'text-buy' : 'text-amber-400'}` : 'text-mute hover:text-white'
               }`}
             >
-              {t === 'TRADER' ? 'Trader Dashboard' : 'Operator Console'}
+              {t === 'TRADER' ? 'Dashboard' : 'Monitoring'}
             </button>
           ))}
         </div>

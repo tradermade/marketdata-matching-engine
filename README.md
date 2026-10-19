@@ -89,7 +89,7 @@ TraderMade WebSocket ──► feed task ──┐
   invalid or denied one is refused with the reason. Orders are accepted from the first
   price, which also sets the symbol's price decimals from its asset class and spread.
 - **The trading screen** receives updates over one WebSocket, batched to one render per
-  frame. The Operator Console shows the feed status, matching latency, the live
+  frame. The Monitoring tab shows the feed status, matching latency, the live
   TraderMade quotes, the engine log and FIX-style execution reports.
 
 ### Symbol forms
