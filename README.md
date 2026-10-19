@@ -61,8 +61,6 @@ Set these in `.env` or the environment.
 |---|---|---|
 | `TRADERMADE_WS_API_KEY` | — | Streaming key for live prices (WebSocket V2) |
 | `TRADERMADE_REST_API_KEY` | — | REST key for chart history |
-| `TRADERMADE_API_KEY` | — | Used for both when a specific key is not set |
-| `BIND` | `127.0.0.1:8080` | Address the server listens on |
 | `STATIC_DIR` | `web/dist` | Built trading screen to serve |
 | `RUST_LOG` | `info` | Log level |
 
