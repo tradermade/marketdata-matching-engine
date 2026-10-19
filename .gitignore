@@ -1,0 +1,10 @@
+/target
+/web/node_modules
+/web/dist
+.env
+
+# runtime state and local logs
+/data
+*.log
+*.out
+*.err
